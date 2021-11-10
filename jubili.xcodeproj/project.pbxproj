@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E16B869273C410D004AEC21 /* jubiliApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16B868273C410D004AEC21 /* jubiliApp.swift */; };
+		3E16B86B273C410D004AEC21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16B86A273C410D004AEC21 /* ContentView.swift */; };
+		3E16B86D273C410F004AEC21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E16B86C273C410F004AEC21 /* Assets.xcassets */; };
+		3E16B870273C410F004AEC21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E16B86F273C410F004AEC21 /* Preview Assets.xcassets */; };
+		3E16B87A273C410F004AEC21 /* jubiliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16B879273C410F004AEC21 /* jubiliTests.swift */; };
+		3E16B884273C410F004AEC21 /* jubiliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16B883273C410F004AEC21 /* jubiliUITests.swift */; };
+		3E16B886273C410F004AEC21 /* jubiliUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16B885273C410F004AEC21 /* jubiliUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E16B876273C410F004AEC21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E16B85D273C410D004AEC21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E16B864273C410D004AEC21;
+			remoteInfo = jubili;
+		};
+		3E16B880273C410F004AEC21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E16B85D273C410D004AEC21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E16B864273C410D004AEC21;
+			remoteInfo = jubili;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E16B865273C410D004AEC21 /* jubili.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jubili.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E16B868273C410D004AEC21 /* jubiliApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jubiliApp.swift; sourceTree = "<group>"; };
+		3E16B86A273C410D004AEC21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3E16B86C273C410F004AEC21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E16B86F273C410F004AEC21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3E16B875273C410F004AEC21 /* jubiliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jubiliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E16B879273C410F004AEC21 /* jubiliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jubiliTests.swift; sourceTree = "<group>"; };
+		3E16B87F273C410F004AEC21 /* jubiliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jubiliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E16B883273C410F004AEC21 /* jubiliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jubiliUITests.swift; sourceTree = "<group>"; };
+		3E16B885273C410F004AEC21 /* jubiliUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jubiliUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E16B862273C410D004AEC21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E16B872273C410F004AEC21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E16B87C273C410F004AEC21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E16B85C273C410D004AEC21 = {
+			isa = PBXGroup;
+			children = (
+				3E16B867273C410D004AEC21 /* jubili */,
+				3E16B878273C410F004AEC21 /* jubiliTests */,
+				3E16B882273C410F004AEC21 /* jubiliUITests */,
+				3E16B866273C410D004AEC21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E16B866273C410D004AEC21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E16B865273C410D004AEC21 /* jubili.app */,
+				3E16B875273C410F004AEC21 /* jubiliTests.xctest */,
+				3E16B87F273C410F004AEC21 /* jubiliUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E16B867273C410D004AEC21 /* jubili */ = {
+			isa = PBXGroup;
+			children = (
+				3E16B868273C410D004AEC21 /* jubiliApp.swift */,
+				3E16B86A273C410D004AEC21 /* ContentView.swift */,
+				3E16B86C273C410F004AEC21 /* Assets.xcassets */,
+				3E16B86E273C410F004AEC21 /* Preview Content */,
+			);
+			path = jubili;
+			sourceTree = "<group>";
+		};
+		3E16B86E273C410F004AEC21 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3E16B86F273C410F004AEC21 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3E16B878273C410F004AEC21 /* jubiliTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E16B879273C410F004AEC21 /* jubiliTests.swift */,
+			);
+			path = jubiliTests;
+			sourceTree = "<group>";
+		};
+		3E16B882273C410F004AEC21 /* jubiliUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E16B883273C410F004AEC21 /* jubiliUITests.swift */,
+				3E16B885273C410F004AEC21 /* jubiliUITestsLaunchTests.swift */,
+			);
+			path = jubiliUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E16B864273C410D004AEC21 /* jubili */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E16B889273C410F004AEC21 /* Build configuration list for PBXNativeTarget "jubili" */;
+			buildPhases = (
+				3E16B861273C410D004AEC21 /* Sources */,
+				3E16B862273C410D004AEC21 /* Frameworks */,
+				3E16B863273C410D004AEC21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jubili;
+			productName = jubili;
+			productReference = 3E16B865273C410D004AEC21 /* jubili.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E16B874273C410F004AEC21 /* jubiliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E16B88C273C410F004AEC21 /* Build configuration list for PBXNativeTarget "jubiliTests" */;
+			buildPhases = (
+				3E16B871273C410F004AEC21 /* Sources */,
+				3E16B872273C410F004AEC21 /* Frameworks */,
+				3E16B873273C410F004AEC21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E16B877273C410F004AEC21 /* PBXTargetDependency */,
+			);
+			name = jubiliTests;
+			productName = jubiliTests;
+			productReference = 3E16B875273C410F004AEC21 /* jubiliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E16B87E273C410F004AEC21 /* jubiliUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E16B88F273C410F004AEC21 /* Build configuration list for PBXNativeTarget "jubiliUITests" */;
+			buildPhases = (
+				3E16B87B273C410F004AEC21 /* Sources */,
+				3E16B87C273C410F004AEC21 /* Frameworks */,
+				3E16B87D273C410F004AEC21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E16B881273C410F004AEC21 /* PBXTargetDependency */,
+			);
+			name = jubiliUITests;
+			productName = jubiliUITests;
+			productReference = 3E16B87F273C410F004AEC21 /* jubiliUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E16B85D273C410D004AEC21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					3E16B864273C410D004AEC21 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3E16B874273C410F004AEC21 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 3E16B864273C410D004AEC21;
+					};
+					3E16B87E273C410F004AEC21 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 3E16B864273C410D004AEC21;
+					};
+				};
+			};
+			buildConfigurationList = 3E16B860273C410D004AEC21 /* Build configuration list for PBXProject "jubili" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E16B85C273C410D004AEC21;
+			productRefGroup = 3E16B866273C410D004AEC21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E16B864273C410D004AEC21 /* jubili */,
+				3E16B874273C410F004AEC21 /* jubiliTests */,
+				3E16B87E273C410F004AEC21 /* jubiliUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E16B863273C410D004AEC21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E16B870273C410F004AEC21 /* Preview Assets.xcassets in Resources */,
+				3E16B86D273C410F004AEC21 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E16B873273C410F004AEC21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E16B87D273C410F004AEC21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E16B861273C410D004AEC21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E16B86B273C410D004AEC21 /* ContentView.swift in Sources */,
+				3E16B869273C410D004AEC21 /* jubiliApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E16B871273C410F004AEC21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E16B87A273C410F004AEC21 /* jubiliTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E16B87B273C410F004AEC21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E16B884273C410F004AEC21 /* jubiliUITests.swift in Sources */,
+				3E16B886273C410F004AEC21 /* jubiliUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E16B877273C410F004AEC21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E16B864273C410D004AEC21 /* jubili */;
+			targetProxy = 3E16B876273C410F004AEC21 /* PBXContainerItemProxy */;
+		};
+		3E16B881273C410F004AEC21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E16B864273C410D004AEC21 /* jubili */;
+			targetProxy = 3E16B880273C410F004AEC21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3E16B887273C410F004AEC21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E16B888273C410F004AEC21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E16B88A273C410F004AEC21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"jubili/Preview Content\"";
+				DEVELOPMENT_TEAM = 9PGNALUY6R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.jubili;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E16B88B273C410F004AEC21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"jubili/Preview Content\"";
+				DEVELOPMENT_TEAM = 9PGNALUY6R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.jubili;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3E16B88D273C410F004AEC21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9PGNALUY6R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.jubiliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jubili.app/jubili";
+			};
+			name = Debug;
+		};
+		3E16B88E273C410F004AEC21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9PGNALUY6R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.jubiliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jubili.app/jubili";
+			};
+			name = Release;
+		};
+		3E16B890273C410F004AEC21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9PGNALUY6R;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.jubiliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jubili;
+			};
+			name = Debug;
+		};
+		3E16B891273C410F004AEC21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9PGNALUY6R;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.jubiliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jubili;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E16B860273C410D004AEC21 /* Build configuration list for PBXProject "jubili" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E16B887273C410F004AEC21 /* Debug */,
+				3E16B888273C410F004AEC21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E16B889273C410F004AEC21 /* Build configuration list for PBXNativeTarget "jubili" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E16B88A273C410F004AEC21 /* Debug */,
+				3E16B88B273C410F004AEC21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E16B88C273C410F004AEC21 /* Build configuration list for PBXNativeTarget "jubiliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E16B88D273C410F004AEC21 /* Debug */,
+				3E16B88E273C410F004AEC21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E16B88F273C410F004AEC21 /* Build configuration list for PBXNativeTarget "jubiliUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E16B890273C410F004AEC21 /* Debug */,
+				3E16B891273C410F004AEC21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E16B85D273C410D004AEC21 /* Project object */;
+}

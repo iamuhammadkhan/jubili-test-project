@@ -26,6 +26,7 @@ struct SubHeaderView: View {
                     .foregroundColor(.appLightGrayText)
             }
         }
+        .offset(x: 0, y: 16)
         .padding(.horizontal)
     }
 }

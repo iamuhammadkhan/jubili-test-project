@@ -24,6 +24,7 @@ struct HeaderView: View {
                              imageWidth: 16,
                              image: Image(systemName: "magnifyingglass"))
         }
-        .padding()
+        .padding(.horizontal)
+        .padding(.top, 8)
     }
 }

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3E16B869273C410D004AEC21 /* jubiliApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16B868273C410D004AEC21 /* jubiliApp.swift */; };
-		3E16B86B273C410D004AEC21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16B86A273C410D004AEC21 /* ContentView.swift */; };
 		3E16B86D273C410F004AEC21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E16B86C273C410F004AEC21 /* Assets.xcassets */; };
 		3E16B870273C410F004AEC21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E16B86F273C410F004AEC21 /* Preview Assets.xcassets */; };
 		3E16B87A273C410F004AEC21 /* jubiliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16B879273C410F004AEC21 /* jubiliTests.swift */; };
@@ -16,6 +15,13 @@
 		3E16B886273C410F004AEC21 /* jubiliUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16B885273C410F004AEC21 /* jubiliUITestsLaunchTests.swift */; };
 		3E16B897273E71DC004AEC21 /* UIScreen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16B896273E71DC004AEC21 /* UIScreen+Extension.swift */; };
 		3E16B899273E7273004AEC21 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16B898273E7273004AEC21 /* Color+Extension.swift */; };
+		3E16B89E273EDA49004AEC21 /* StoreFrontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16B89D273EDA49004AEC21 /* StoreFrontView.swift */; };
+		3E16B8A0273EDA61004AEC21 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16B89F273EDA61004AEC21 /* ProductView.swift */; };
+		3E16B8A2273EDA6E004AEC21 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16B8A1273EDA6E004AEC21 /* CartView.swift */; };
+		3E16B8A6273EE02C004AEC21 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16B8A5273EE02C004AEC21 /* SplashView.swift */; };
+		3E16B8A8273EE66F004AEC21 /* HeaderButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16B8A7273EE66F004AEC21 /* HeaderButtonView.swift */; };
+		3E16B8AA273EE770004AEC21 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16B8A9273EE770004AEC21 /* HeaderView.swift */; };
+		3E16B8AC273EEC55004AEC21 /* SubHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16B8AB273EEC55004AEC21 /* SubHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,6 @@
 /* Begin PBXFileReference section */
 		3E16B865273C410D004AEC21 /* Jubili.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jubili.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E16B868273C410D004AEC21 /* jubiliApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jubiliApp.swift; sourceTree = "<group>"; };
-		3E16B86A273C410D004AEC21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3E16B86C273C410F004AEC21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E16B86F273C410F004AEC21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3E16B875273C410F004AEC21 /* jubiliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jubiliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +53,14 @@
 		3E16B885273C410F004AEC21 /* jubiliUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jubiliUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3E16B896273E71DC004AEC21 /* UIScreen+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extension.swift"; sourceTree = "<group>"; };
 		3E16B898273E7273004AEC21 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		3E16B89D273EDA49004AEC21 /* StoreFrontView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreFrontView.swift; sourceTree = "<group>"; };
+		3E16B89F273EDA61004AEC21 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		3E16B8A1273EDA6E004AEC21 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		3E16B8A5273EE02C004AEC21 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		3E16B8A7273EE66F004AEC21 /* HeaderButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderButtonView.swift; sourceTree = "<group>"; };
+		3E16B8A9273EE770004AEC21 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		3E16B8AB273EEC55004AEC21 /* SubHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubHeaderView.swift; sourceTree = "<group>"; };
+		3E16B8AD273EFE5C004AEC21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +111,9 @@
 		3E16B867273C410D004AEC21 /* jubili */ = {
 			isa = PBXGroup;
 			children = (
+				3E16B8AD273EFE5C004AEC21 /* Info.plist */,
 				3E16B895273E71BB004AEC21 /* Extensions */,
-				3E16B894273C41F6004AEC21 /* Home */,
+				3E16B894273C41F6004AEC21 /* Modules */,
 				3E16B893273C4151004AEC21 /* AppFiles */,
 				3E16B892273C413E004AEC21 /* AppAssets */,
 				3E16B86E273C410F004AEC21 /* Preview Content */,
@@ -148,12 +162,16 @@
 			path = AppFiles;
 			sourceTree = "<group>";
 		};
-		3E16B894273C41F6004AEC21 /* Home */ = {
+		3E16B894273C41F6004AEC21 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				3E16B86A273C410D004AEC21 /* ContentView.swift */,
+				3E16B8A4273EE01B004AEC21 /* SplashView */,
+				3E16B8A3273EDAA2004AEC21 /* CustomViews */,
+				3E16B89C273EDA29004AEC21 /* CartView */,
+				3E16B89B273EDA1E004AEC21 /* ProductView */,
+				3E16B89A273ED9B2004AEC21 /* StoreFrontView */,
 			);
-			path = Home;
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		3E16B895273E71BB004AEC21 /* Extensions */ = {
@@ -163,6 +181,48 @@
 				3E16B898273E7273004AEC21 /* Color+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3E16B89A273ED9B2004AEC21 /* StoreFrontView */ = {
+			isa = PBXGroup;
+			children = (
+				3E16B89D273EDA49004AEC21 /* StoreFrontView.swift */,
+				3E16B8A9273EE770004AEC21 /* HeaderView.swift */,
+				3E16B8AB273EEC55004AEC21 /* SubHeaderView.swift */,
+			);
+			path = StoreFrontView;
+			sourceTree = "<group>";
+		};
+		3E16B89B273EDA1E004AEC21 /* ProductView */ = {
+			isa = PBXGroup;
+			children = (
+				3E16B89F273EDA61004AEC21 /* ProductView.swift */,
+			);
+			path = ProductView;
+			sourceTree = "<group>";
+		};
+		3E16B89C273EDA29004AEC21 /* CartView */ = {
+			isa = PBXGroup;
+			children = (
+				3E16B8A1273EDA6E004AEC21 /* CartView.swift */,
+			);
+			path = CartView;
+			sourceTree = "<group>";
+		};
+		3E16B8A3273EDAA2004AEC21 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				3E16B8A7273EE66F004AEC21 /* HeaderButtonView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		3E16B8A4273EE01B004AEC21 /* SplashView */ = {
+			isa = PBXGroup;
+			children = (
+				3E16B8A5273EE02C004AEC21 /* SplashView.swift */,
+			);
+			path = SplashView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,9 +355,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E16B86B273C410D004AEC21 /* ContentView.swift in Sources */,
+				3E16B8A6273EE02C004AEC21 /* SplashView.swift in Sources */,
+				3E16B8AA273EE770004AEC21 /* HeaderView.swift in Sources */,
+				3E16B8A8273EE66F004AEC21 /* HeaderButtonView.swift in Sources */,
+				3E16B8A2273EDA6E004AEC21 /* CartView.swift in Sources */,
+				3E16B8AC273EEC55004AEC21 /* SubHeaderView.swift in Sources */,
 				3E16B869273C410D004AEC21 /* jubiliApp.swift in Sources */,
 				3E16B897273E71DC004AEC21 /* UIScreen+Extension.swift in Sources */,
+				3E16B89E273EDA49004AEC21 /* StoreFrontView.swift in Sources */,
+				3E16B8A0273EDA61004AEC21 /* ProductView.swift in Sources */,
 				3E16B899273E7273004AEC21 /* Color+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,9 +528,11 @@
 				DEVELOPMENT_TEAM = 9PGNALUY6R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = jubili/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -476,7 +544,7 @@
 				PRODUCT_NAME = Jubili;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -491,9 +559,11 @@
 				DEVELOPMENT_TEAM = 9PGNALUY6R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = jubili/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -505,7 +575,7 @@
 				PRODUCT_NAME = Jubili;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

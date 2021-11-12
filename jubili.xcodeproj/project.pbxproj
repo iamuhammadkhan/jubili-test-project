@@ -14,6 +14,8 @@
 		3E16B87A273C410F004AEC21 /* jubiliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16B879273C410F004AEC21 /* jubiliTests.swift */; };
 		3E16B884273C410F004AEC21 /* jubiliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16B883273C410F004AEC21 /* jubiliUITests.swift */; };
 		3E16B886273C410F004AEC21 /* jubiliUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16B885273C410F004AEC21 /* jubiliUITestsLaunchTests.swift */; };
+		3E16B897273E71DC004AEC21 /* UIScreen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16B896273E71DC004AEC21 /* UIScreen+Extension.swift */; };
+		3E16B899273E7273004AEC21 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16B898273E7273004AEC21 /* Color+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3E16B865273C410D004AEC21 /* jubili.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jubili.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E16B865273C410D004AEC21 /* Jubili.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jubili.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E16B868273C410D004AEC21 /* jubiliApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jubiliApp.swift; sourceTree = "<group>"; };
 		3E16B86A273C410D004AEC21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3E16B86C273C410F004AEC21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +46,8 @@
 		3E16B87F273C410F004AEC21 /* jubiliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jubiliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E16B883273C410F004AEC21 /* jubiliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jubiliUITests.swift; sourceTree = "<group>"; };
 		3E16B885273C410F004AEC21 /* jubiliUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jubiliUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3E16B896273E71DC004AEC21 /* UIScreen+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extension.swift"; sourceTree = "<group>"; };
+		3E16B898273E7273004AEC21 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +88,7 @@
 		3E16B866273C410D004AEC21 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3E16B865273C410D004AEC21 /* jubili.app */,
+				3E16B865273C410D004AEC21 /* Jubili.app */,
 				3E16B875273C410F004AEC21 /* jubiliTests.xctest */,
 				3E16B87F273C410F004AEC21 /* jubiliUITests.xctest */,
 			);
@@ -94,9 +98,10 @@
 		3E16B867273C410D004AEC21 /* jubili */ = {
 			isa = PBXGroup;
 			children = (
-				3E16B868273C410D004AEC21 /* jubiliApp.swift */,
-				3E16B86A273C410D004AEC21 /* ContentView.swift */,
-				3E16B86C273C410F004AEC21 /* Assets.xcassets */,
+				3E16B895273E71BB004AEC21 /* Extensions */,
+				3E16B894273C41F6004AEC21 /* Home */,
+				3E16B893273C4151004AEC21 /* AppFiles */,
+				3E16B892273C413E004AEC21 /* AppAssets */,
 				3E16B86E273C410F004AEC21 /* Preview Content */,
 			);
 			path = jubili;
@@ -127,6 +132,39 @@
 			path = jubiliUITests;
 			sourceTree = "<group>";
 		};
+		3E16B892273C413E004AEC21 /* AppAssets */ = {
+			isa = PBXGroup;
+			children = (
+				3E16B86C273C410F004AEC21 /* Assets.xcassets */,
+			);
+			path = AppAssets;
+			sourceTree = "<group>";
+		};
+		3E16B893273C4151004AEC21 /* AppFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3E16B868273C410D004AEC21 /* jubiliApp.swift */,
+			);
+			path = AppFiles;
+			sourceTree = "<group>";
+		};
+		3E16B894273C41F6004AEC21 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3E16B86A273C410D004AEC21 /* ContentView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3E16B895273E71BB004AEC21 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3E16B896273E71DC004AEC21 /* UIScreen+Extension.swift */,
+				3E16B898273E7273004AEC21 /* Color+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,7 +182,7 @@
 			);
 			name = jubili;
 			productName = jubili;
-			productReference = 3E16B865273C410D004AEC21 /* jubili.app */;
+			productReference = 3E16B865273C410D004AEC21 /* Jubili.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3E16B874273C410F004AEC21 /* jubiliTests */ = {
@@ -259,6 +297,8 @@
 			files = (
 				3E16B86B273C410D004AEC21 /* ContentView.swift in Sources */,
 				3E16B869273C410D004AEC21 /* jubiliApp.swift in Sources */,
+				3E16B897273E71DC004AEC21 /* UIScreen+Extension.swift in Sources */,
+				3E16B899273E7273004AEC21 /* Color+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +473,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.my.jubili;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Jubili;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -462,7 +502,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.my.jubili;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Jubili;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

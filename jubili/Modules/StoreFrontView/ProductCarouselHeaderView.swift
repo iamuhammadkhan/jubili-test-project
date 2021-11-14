@@ -30,5 +30,6 @@ struct ProductCarouselHeaderView: View {
                     .foregroundColor(.appBlue)
             }
         }
+        .padding(.horizontal)
     }
 }

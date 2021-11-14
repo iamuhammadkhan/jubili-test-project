@@ -11,7 +11,7 @@ import SwiftUI
 struct jubiliApp: App {
     var body: some Scene {
         WindowGroup {
-            SplashView()
+            StoreFrontView()
         }
     }
 }

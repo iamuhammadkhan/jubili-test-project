@@ -23,7 +23,9 @@ struct HeaderView: View {
                              imageWidth: 8,
                              image: Image(systemName: "chevron.left"))
                 .onTapGesture {
-                    backButtonAction?()
+                    if let callBack = backButtonAction {
+                        callBack()
+                    }
                 }
             Spacer()
             if showSearchButton {
@@ -34,7 +36,9 @@ struct HeaderView: View {
                                  imageWidth: 16,
                                  image: Image(systemName: "magnifyingglass"))
                     .onTapGesture {
-                        searchButtonAction?()
+                        if let callBack = searchButtonAction {
+                            callBack()
+                        }
                     }
             }
         }

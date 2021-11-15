@@ -16,7 +16,8 @@ struct StoreFrontView: View {
                     VStack(alignment: .leading, spacing: 30) {
                         SubHeaderView(title: "Hi-Fi Shop & Services",
                                       address: "Audio shop on Rustaveli Ave 57.",
-                                      subTitle: "This shop offers both products and services")
+                                      subTitle: "This shop offers both products and services",
+                                      showLinkView: false, headingFontSize: 22)
                         ProductCarouselView()
                         ProductCarouselView()
                         ProductCarouselView()

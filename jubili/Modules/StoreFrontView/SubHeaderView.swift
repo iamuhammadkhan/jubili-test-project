@@ -54,7 +54,7 @@ struct SubHeaderView: View {
                     .foregroundColor(.appLightGrayText)
             }
         }
-        .offset(x: 0, y: 16)
+        .offset(x: 0, y: showLinkView ? -8 : 20)
         .padding()
     }
 }

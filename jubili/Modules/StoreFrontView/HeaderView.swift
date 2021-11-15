@@ -19,8 +19,8 @@ struct HeaderView: View {
             HeaderButtonView(strokeColor: .clear,
                              cornerRadius: 14,
                              backgroundColor: colorScheme == .dark ? .appDarkBG : .appLightGrayBG,
-                             imageHeight: 16,
-                             imageWidth: 8,
+                             height: 45,
+                             width: 45,
                              image: Image(systemName: "chevron.left"))
                 .onTapGesture {
                     if let callBack = backButtonAction {
@@ -32,8 +32,8 @@ struct HeaderView: View {
                 HeaderButtonView(strokeColor: colorScheme == .dark ? .appDarkGrayBG : .appLightGrayBG,
                                  cornerRadius: 14,
                                  backgroundColor: .clear,
-                                 imageHeight: 16,
-                                 imageWidth: 16,
+                                 height: 45,
+                                 width: 45,
                                  image: Image(systemName: "magnifyingglass"))
                     .onTapGesture {
                         if let callBack = searchButtonAction {

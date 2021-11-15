@@ -12,22 +12,23 @@ struct HeaderButtonView: View {
     let strokeColor: Color
     let cornerRadius: CGFloat
     let backgroundColor: Color
-    let imageHeight: CGFloat
-    let imageWidth: CGFloat
+    let height: CGFloat
+    let width: CGFloat
     let image: Image
     
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: cornerRadius)
                 .foregroundColor(backgroundColor)
-                .frame(width: 40, height: 40)
+                .frame(width: width, height: height)
                 .overlay(
                     RoundedRectangle(cornerRadius: cornerRadius)
                         .stroke(strokeColor, lineWidth: 2)
                 )
             image
                 .resizable()
-                .frame(width: imageWidth, height: imageHeight)
+                .scaledToFit()
+                .frame(width: width / 2.5, height: height / 2.5)
                 
         }
     }

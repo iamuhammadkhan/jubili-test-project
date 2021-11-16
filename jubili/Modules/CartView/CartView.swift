@@ -45,15 +45,21 @@ struct CartView: View {
                                             RoundedRectangle(cornerRadius: 12)
                                                 .stroke(Color.appLightGrayBG, lineWidth: 2)
                                         )
-                                    Text("-")
-                                        .foregroundColor(.appLightGrayText)
-                                        .font(.system(size: 20, weight: .semibold, design: .default))
+                                    Button {
+                                        //
+                                    } label: {
+                                        Image(systemName: "minus")
+                                            .resizable()
+                                            .scaledToFit()
+                                            .frame(width: 12, height: 12, alignment: .center)
+                                            .foregroundColor(.appLightGrayBG)
+                                    }
                                 }
                                 
                                 Text("1")
                                     .foregroundColor(.appLightGrayText)
                                     .font(.system(size: 14, weight: .medium, design: .default))
-                                    .frame(width: 40, height: 30, alignment: .center)
+                                    .frame(width: 50, height: 30, alignment: .center)
                                 
                                 ZStack {
                                     RoundedRectangle(cornerRadius: 12)
@@ -63,15 +69,32 @@ struct CartView: View {
                                             RoundedRectangle(cornerRadius: 12)
                                                 .stroke(Color.appLightGrayBG, lineWidth: 2)
                                         )
-                                    Text("+")
-                                        .foregroundColor(.appLightGrayText)
-                                        .font(.system(size: 20, weight: .semibold, design: .default))
+                                    Button {
+                                        //
+                                    } label: {
+                                        Image(systemName: "plus")
+                                            .resizable()
+                                            .scaledToFit()
+                                            .frame(width: 12, height: 12, alignment: .center)
+                                            .foregroundColor(.appLightGrayBG)
+                                    }
                                 }
                                 
                                 Spacer()
-                                RoundedRectangle(cornerRadius: 12)
-                                    .foregroundColor(colorScheme == . dark ? .appDarkGrayBG : .appLightGrayBG)
-                                    .frame(width: 30, height: 30, alignment: .center)
+                                ZStack {
+                                    RoundedRectangle(cornerRadius: 12)
+                                        .foregroundColor(.appLightGrayBG)
+                                        .frame(width: 30, height: 30, alignment: .center)
+                                    Button {
+                                        //
+                                    } label: {
+                                        Image(systemName: "trash")
+                                            .resizable()
+                                            .scaledToFit()
+                                            .frame(width: 14, height: 14, alignment: .center)
+                                            .foregroundColor(.appDarkBG)
+                                    }
+                                }
                             }.padding(.top)
                         }
                     }
@@ -90,7 +113,7 @@ struct CartView: View {
                     HStack(alignment: .center, spacing: 20) {
                         ZStack {
                             RoundedRectangle(cornerRadius: 6)
-                                .foregroundColor(colorScheme == .dark ? .appDarkGrayBG : .appLightGrayBG)
+                                .foregroundColor(.appLightGrayBG)
                                 .frame(width: 50, height: 30, alignment: .center)
                             Image("visa")
                                 .resizable()

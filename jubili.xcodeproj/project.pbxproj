@@ -30,6 +30,12 @@
 		3ECB3DCD2742821100A14D36 /* CartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB3DCC2742821100A14D36 /* CartButtonView.swift */; };
 		3ECB3DCF2742827900A14D36 /* ProductDetailsLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB3DCE2742827800A14D36 /* ProductDetailsLocationView.swift */; };
 		3ECB3DD12742833000A14D36 /* ProductDetailsPriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB3DD02742832F00A14D36 /* ProductDetailsPriceView.swift */; };
+		3ECB3DD42743920800A14D36 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB3DD32743920800A14D36 /* ProductModel.swift */; };
+		3ECB3DD62743922E00A14D36 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB3DD52743922E00A14D36 /* CategoryModel.swift */; };
+		3ECB3DD82743924500A14D36 /* PaymentMethodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB3DD72743924500A14D36 /* PaymentMethodModel.swift */; };
+		3ECB3DDA2743925700A14D36 /* CartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB3DD92743925700A14D36 /* CartModel.swift */; };
+		3ECB3DDC274397B800A14D36 /* UserAddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB3DDB274397B800A14D36 /* UserAddressModel.swift */; };
+		3ECB3DDE274397EC00A14D36 /* ProductDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB3DDD274397EC00A14D36 /* ProductDataProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +82,12 @@
 		3ECB3DCC2742821100A14D36 /* CartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButtonView.swift; sourceTree = "<group>"; };
 		3ECB3DCE2742827800A14D36 /* ProductDetailsLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsLocationView.swift; sourceTree = "<group>"; };
 		3ECB3DD02742832F00A14D36 /* ProductDetailsPriceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsPriceView.swift; sourceTree = "<group>"; };
+		3ECB3DD32743920800A14D36 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		3ECB3DD52743922E00A14D36 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		3ECB3DD72743924500A14D36 /* PaymentMethodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodModel.swift; sourceTree = "<group>"; };
+		3ECB3DD92743925700A14D36 /* CartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = "<group>"; };
+		3ECB3DDB274397B800A14D36 /* UserAddressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAddressModel.swift; sourceTree = "<group>"; };
+		3ECB3DDD274397EC00A14D36 /* ProductDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDataProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +138,7 @@
 		3E16B867273C410D004AEC21 /* jubili */ = {
 			isa = PBXGroup;
 			children = (
+				3ECB3DD2274391EB00A14D36 /* DataModels */,
 				3E16B895273E71BB004AEC21 /* Extensions */,
 				3E16B894273C41F6004AEC21 /* Modules */,
 				3E16B893273C4151004AEC21 /* AppFiles */,
@@ -237,6 +250,19 @@
 				3ECB3DC8274226D400A14D36 /* FlatBlueButton.swift */,
 			);
 			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		3ECB3DD2274391EB00A14D36 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				3ECB3DD32743920800A14D36 /* ProductModel.swift */,
+				3ECB3DD52743922E00A14D36 /* CategoryModel.swift */,
+				3ECB3DD72743924500A14D36 /* PaymentMethodModel.swift */,
+				3ECB3DDB274397B800A14D36 /* UserAddressModel.swift */,
+				3ECB3DD92743925700A14D36 /* CartModel.swift */,
+				3ECB3DDD274397EC00A14D36 /* ProductDataProvider.swift */,
+			);
+			path = DataModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,15 +399,21 @@
 				3E16B8AA273EE770004AEC21 /* HeaderView.swift in Sources */,
 				3E16B8A8273EE66F004AEC21 /* HeaderButtonView.swift in Sources */,
 				3ECB3DC9274226D400A14D36 /* FlatBlueButton.swift in Sources */,
+				3ECB3DD82743924500A14D36 /* PaymentMethodModel.swift in Sources */,
 				3E16B8AF273F00C8004AEC21 /* ProductCarouselView.swift in Sources */,
 				3E16B8A2273EDA6E004AEC21 /* CartView.swift in Sources */,
 				3E16B8AC273EEC55004AEC21 /* SubHeaderView.swift in Sources */,
+				3ECB3DDC274397B800A14D36 /* UserAddressModel.swift in Sources */,
 				3ECB3DCF2742827900A14D36 /* ProductDetailsLocationView.swift in Sources */,
 				3ECB3DCB27427F3600A14D36 /* ProductDetailsTopView.swift in Sources */,
 				3E16B869273C410D004AEC21 /* jubiliApp.swift in Sources */,
+				3ECB3DD42743920800A14D36 /* ProductModel.swift in Sources */,
 				3E16B897273E71DC004AEC21 /* UIScreen+Extension.swift in Sources */,
 				3E16B89E273EDA49004AEC21 /* StoreFrontView.swift in Sources */,
+				3ECB3DD62743922E00A14D36 /* CategoryModel.swift in Sources */,
+				3ECB3DDA2743925700A14D36 /* CartModel.swift in Sources */,
 				3E16B8B1273F0120004AEC21 /* ProductCarouselHeaderView.swift in Sources */,
+				3ECB3DDE274397EC00A14D36 /* ProductDataProvider.swift in Sources */,
 				3E16B8A0273EDA61004AEC21 /* ProductView.swift in Sources */,
 				3E16B8B3273F15FE004AEC21 /* ProductCardView.swift in Sources */,
 				3ECB3DD12742833000A14D36 /* ProductDetailsPriceView.swift in Sources */,

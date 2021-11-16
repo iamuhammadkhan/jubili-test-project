@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct StoreFrontView: View {
+    
+    init() {
+        UIScrollView.appearance().bounces = false
+    }
+    
     var body: some View {
         NavigationView {
             VStack(alignment: .leading, spacing: 0) {

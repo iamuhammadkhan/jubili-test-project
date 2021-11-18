@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct ProductDetailsLocationView: View {
+    
+    let addressLineOne: String
+    let addressLineTwo: String
+    
     var body: some View {
         HStack(alignment: .center, spacing: 20) {
             ZStack {
@@ -21,10 +25,10 @@ struct ProductDetailsLocationView: View {
                     .frame(width: 20, height: 20, alignment: .center)
             }
             VStack(alignment: .leading, spacing: 4) {
-                Text("Rustaveli Ave 57,")
+                Text(addressLineOne)
                     .foregroundColor(.appLightGrayText)
                     .font(.system(size: 14, weight: .medium, design: .default))
-                Text("17-001, Batumi")
+                Text(addressLineTwo)
                     .foregroundColor(.appLightGrayText)
                     .font(.system(size: 14, weight: .medium, design: .default))
             }

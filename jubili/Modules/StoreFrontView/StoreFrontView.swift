@@ -23,9 +23,9 @@ struct StoreFrontView: View {
                                       address: "Audio shop on Rustaveli Ave 57.",
                                       subTitle: "This shop offers both products and services",
                                       showLinkView: false, headingFontSize: 22)
-                        ProductCarouselView()
-                        ProductCarouselView()
-                        ProductCarouselView()
+                        ForEach(ProductDataProvider.shared.getCategoriesData(), id: \.id) { category in
+                            ProductCarouselView(category: category)
+                        }
                     }
                 }
             }

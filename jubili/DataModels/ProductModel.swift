@@ -7,23 +7,23 @@
 
 import Foundation
 
-struct ProductModel {
+struct ProductModel: Identifiable {
+    let id = UUID()
     let productNumber: String
     let productSpeciality: String
     let productPrice: Double
     let productTaxRate: Double
-    let productTax: Double
-    let productImages: [String]
+    let productImages: [ProductImage]
     let availabilityStatus: AvailabilityType
     let productLink: String
     
     func calculateTax() -> Double {
         let value = productPrice / 100 * productTaxRate
-        return value.rounded()
+        return value
     }
     
-    func calculateFinalPrice() -> Double {
+    func calculateFinalPrice() -> Int {
         let tax = calculateTax()
-        return productPrice + tax
+        return Int((productPrice + tax).rounded())
     }
 }

@@ -7,8 +7,14 @@
 
 import Foundation
 
-struct CategoryModel {
-    let categoryName: String
+struct CategoryModel:Identifiable {
+    let id = UUID()
+    let categoryName: CategoryType
     let numberOfProducts: Int
     let products: [ProductModel]
+}
+
+enum CategoryType: String {
+    case products
+    case accessories
 }

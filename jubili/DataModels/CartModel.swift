@@ -7,10 +7,9 @@
 
 import Foundation
 
-struct CartModel {
+struct CartModel: Identifiable {
+    let id = UUID()
     let products: [ProductModel]
-    let deliveryAddress: UserAddressModel
-    let paymentMethod: PaymentMethodModel
     let subTotal: Double
     let shippingCost: Double
     let positiveShippingCost: Bool

@@ -103,7 +103,7 @@ struct CartView: View {
                 VStack(alignment: .leading, spacing: 20) {
                     Text("Delivery Location")
                         .font(.system(size: 22, weight: .semibold, design: .default))
-                    ProductDetailsLocationView()
+                    ProductDetailsLocationView(addressLineOne: "2 Petre Melikishvili St.", addressLineTwo: "0162 Tbilisi")
                 }.padding()
                 
                 VStack(alignment: .leading, spacing: 20) {

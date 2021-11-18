@@ -14,7 +14,7 @@ struct ProductCarouselHeaderView: View {
     
     var body: some View {
         HStack(alignment: .center, spacing: 2) {
-            HStack(alignment: .center, spacing: 2) {
+            HStack(alignment: .center, spacing: 4) {
                 Text(productsTitle)
                     .font(.system(size: 16, weight: .semibold, design: .default))
                 Text("\(numberOfProducts)")

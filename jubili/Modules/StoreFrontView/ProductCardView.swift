@@ -10,22 +10,23 @@ import SwiftUI
 struct ProductCardView: View {
     
     @Environment(\.colorScheme) private var colorScheme: ColorScheme
-    let availbility: AvailabilityType
+    let product: ProductModel
 
     var body: some View {
-        NavigationLink(destination: ProductView()) {
+        NavigationLink(destination: ProductView(product: product)) {
             VStack(alignment: .leading, spacing: 10) {
                 ZStack {
                     RoundedRectangle(cornerRadius: 8)
                         .foregroundColor(.appLightGrayBG)
                         .frame(width: (UIScreen.screenWidth / 2) - 24, height: (UIScreen.screenWidth / 2) - 60, alignment: .center)
-                    Image("5")
+                    Image(product.productImages.first?.imageName ?? "5")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: (UIScreen.screenWidth / 2) - 50, height: (UIScreen.screenWidth / 2) - 50, alignment: .center)
+                        .frame(width: (UIScreen.screenWidth / 2.5), height: (UIScreen.screenWidth / 3), alignment: .center)
                 }
-                Text("AKG N700NCM2 Wireless Headphones")
+                Text("\(product.productNumber) \(product.productSpeciality)")
                     .font(.system(size: 16, weight: .semibold, design: .default))
+                let availbility = product.availabilityStatus
                 if availbility != .none {
                     HStack(alignment: .center, spacing: 4) {
                         Circle()
@@ -36,15 +37,11 @@ struct ProductCardView: View {
                             .font(.system(size: 14, weight: .medium, design: .default))
                     }
                 }
-                Text("$199.00")
+                Text("$\(product.calculateFinalPrice()).00")
                     .font(.system(size: 14, weight: .medium, design: .default))
                     .foregroundColor(.appLightGrayText)
             }
             .padding(.leading)
         }
     }
-}
-
-enum AvailabilityType: String {
-    case none, available, unavailable
 }

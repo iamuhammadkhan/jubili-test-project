@@ -28,17 +28,15 @@ final class ProductDataProvider: NSObject {
         return [first, second]
     }
     
-    func gatherProductsList() -> [ProductModel] {
+    private func gatherProductsList() -> [ProductModel] {
         let first = ProductModel(productNumber: "AI TMA-2 N700NCM2", productSpeciality: "Modular Headphones", productPrice: 245, productTaxRate: 2, productImages: [ProductImage(imageName: "1"), ProductImage(imageName: "2"), ProductImage(imageName: "3")], availabilityStatus: .none, productLink: "Product link will go here")
         let second = ProductModel(productNumber: "AKG N700NCM2", productSpeciality: "Wireless Headphones", productPrice: 195, productTaxRate: 2, productImages: [ProductImage(imageName: "4"), ProductImage(imageName: "5")], availabilityStatus: .none, productLink: "Product link will go here")
         return [first, second]
     }
     
-    func gatherAccessoriesList() -> [ProductModel] {
+    private func gatherAccessoriesList() -> [ProductModel] {
         let first = ProductModel(productNumber: "AKG H890", productSpeciality: "3.5mm Jack Handsfree", productPrice: 147, productTaxRate: 2, productImages: [ProductImage(imageName: "6"), ProductImage(imageName: "7")], availabilityStatus: .none, productLink: "Product link will go here")
         let second = ProductModel(productNumber: "AKG H1290", productSpeciality: "3.5mm Jack Handsfree", productPrice: 145, productTaxRate: 2, productImages: [ProductImage(imageName: "8"), ProductImage(imageName: "9"), ProductImage(imageName: "10")], availabilityStatus: .none, productLink: "Product link will go here")
         return [first, second]
     }
-    
-    
 }

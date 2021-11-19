@@ -47,7 +47,7 @@ struct ProductView: View {
     }
     
     private func updateCart() {
-        print("Add cart tapped")
+        CartManager.shared.updateCart(product)
     }
     
     private func moveBack() {
